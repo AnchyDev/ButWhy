@@ -1,0 +1,32 @@
+#
+# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+#
+
+[worldserver]
+
+########################################
+# ButWhy configuration
+########################################
+#
+#    ButWhy.Enable
+#        Description: Enable/disable the ButWhy module.
+#        Default:     0 - Disabled
+#                     1 - Enabled
+#
+
+ButWhy.Enable = 0
+
+#
+#    ButWhy.Ask.*
+#        Description: Enable/disable the roles that must give a reason for executing commands.
+#        Default:
+#                     Player =         0
+#                     Moderator =      1
+#                     GameMaster =     1
+#                     Administrator =  0
+#
+
+ButWhy.Ask.Player = 0
+ButWhy.Ask.Moderator = 1
+ButWhy.Ask.GameMaster = 1
+ButWhy.Ask.Administrator = 0
