@@ -4,7 +4,7 @@
 #include "Config.h"
 #include "Player.h"
 
-bool ButWhyCommandScript::CanExecuteCommand(ChatHandler& handler, std::string_view cmdV)
+bool ButWhyCommandScript::OnTryExecuteCommand(ChatHandler& handler, std::string_view cmdV)
 {
     if (!sConfigMgr->GetOption<bool>("ButWhy.Enable", false))
     {

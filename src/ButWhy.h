@@ -36,10 +36,10 @@ namespace ButWhy
 class ButWhyCommandScript : public AllCommandScript
 {
 public:
-    ButWhyCommandScript() : AllCommandScript("ButWhyCommandScript", { ALLCOMMANDHOOK_CAN_EXECUTE_COMMAND }) { }
+    ButWhyCommandScript() : AllCommandScript("ButWhyCommandScript", { ALLCOMMANDHOOK_ON_TRY_EXECUTE_COMMAND }) { }
 
 private:
-    bool CanExecuteCommand(ChatHandler& /*handler*/, std::string_view /*cmdStr*/) override;
+    bool OnTryExecuteCommand(ChatHandler& /*handler*/, std::string_view /*cmdStr*/) override;
 };
 
 class ButWhyPlayerScript : public PlayerScript
