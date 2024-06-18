@@ -4,6 +4,8 @@ This module requests that the GM type out a reason for every executed command.
 
 Each of these requests are logged to the `module.butwhy` log so you can read them later.
 
+![ButWhy](https://i.imgflip.com/1rn1j7.jpg?a477072)
+
 ## Setup
 - Clone this module into `./azerothcore-wotlk/modules`
 - Re-run cmake
